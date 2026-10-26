@@ -60,8 +60,8 @@ A desktop GUI for [`mediafire_rs`](https://github.com/NicKoehler/mediafire_rs) (
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Farizma/mdrs-gui.git
+cd mdrs-gui
 
 # optional extras
 pip install tkinterdnd2 pystray pillow
@@ -140,6 +140,3 @@ Issues and pull requests are welcome. The whole application is a single file, `m
 
 - [`mediafire_rs`](https://github.com/NicKoehler/mediafire_rs) by NicKoehler: the downloader this GUI wraps.
 
-## License
-
-Add your license here (for example MIT) and include a `LICENSE` file.
