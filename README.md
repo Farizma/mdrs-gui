@@ -66,10 +66,10 @@ cd mdrs-gui
 # optional extras
 pip install tkinterdnd2 pystray pillow
 
-python mdrs_gui.py
+python mdrs_gui.pyw
 ```
 
-To launch without a console window, rename the file to `mdrs_gui.pyw` and double-click it.
+Because the file uses the `.pyw` extension, you can also just double-click `mdrs_gui.pyw` and it opens without a console window.
 
 The app finds `mdrs` on your `PATH` or in `%USERPROFILE%\.cargo\bin`. If it lives elsewhere, set **Settings → Engine → mdrs executable**.
 
@@ -134,9 +134,12 @@ Deleting the folder resets the app. Exported profiles contain all settings excep
 
 ## Contributing
 
-Issues and pull requests are welcome. The whole application is a single file, `mdrs_gui.py`, built with the Python standard library (plus the optional packages above).
+Issues and pull requests are welcome. The whole application is a single file, `mdrs_gui.pyw`, built with the Python standard library (plus the optional packages above).
 
 ## Credits
 
 - [`mediafire_rs`](https://github.com/NicKoehler/mediafire_rs) by NicKoehler: the downloader this GUI wraps.
 
+## License
+
+Released under the [MIT License](LICENSE).
